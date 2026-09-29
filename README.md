@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+1. 
+2.https://qishu-huang.itch.io/games-a-piece-of
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
