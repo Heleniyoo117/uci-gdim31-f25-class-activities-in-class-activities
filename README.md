@@ -1,7 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-1. 
+1. When I moved the Camera out of the Cat GameObject, the Camera no longer followed the Cat when I run the game. This is because the Camera was originally a child of the Cat, so it inherited the Cat’s movement. After I moved it out of the Cat hierarchy, the Camera became independent and stayed in its own position while the Cat moved.
 2.https://qishu-huang.itch.io/games-a-piece-of
 
 ### W2
