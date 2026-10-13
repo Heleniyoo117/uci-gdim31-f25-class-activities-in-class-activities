@@ -10,7 +10,7 @@
 3. The error told me that the line of code was missing a semicolon at the end. In C#, statements need to end with a semicolon, so the code could not compile until I added ;. This helped me understand that small syntax mistakes can cause compiler errors.
 
 ### W3
-1. Table #: 13
+#Part 1：Table #: 13
 
 1. GetResponse
 
@@ -35,8 +35,8 @@ Parameter: float keyPressTime
 Return type: bool
 
 Reason: The method checks whether the player's key press timing matches the beat and returns true or false.
-2. A class is like a blueprint for a game character. A Component is like using that blueprint on a GameObject in Unity. Member variables describe the character's traits, such as its speed, color, or health. Methods describe what the character can do, such as moving, jumping, or taking damage. Different GameObjects can use the same class but have different values for their variables.
-3. I think the balls become extremely bright because their color values are multiplied by 1.5 every time they bounce when they are moving fast enough. After many bounces, the values keep increasing, making the balls look extremely bright, especially in the Scene view. Setting a maximum brightness could help prevent this.
+#Part 2 ：A class is like a blueprint for a game character. A Component is like using that blueprint on a GameObject in Unity. Member variables describe the character's traits, such as its speed, color, or health. Methods describe what the character can do, such as moving, jumping, or taking damage. Different GameObjects can use the same class but have different values for their variables.
+#Part 3 ： I think the balls become extremely bright because their color values are multiplied by 1.5 every time they bounce when they are moving fast enough. After many bounces, the values keep increasing, making the balls look extremely bright, especially in the Scene view. Setting a maximum brightness could help prevent this.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
