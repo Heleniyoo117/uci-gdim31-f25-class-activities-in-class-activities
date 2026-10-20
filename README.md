@@ -37,6 +37,13 @@ Return type: bool
 Reason: The method checks whether the player's key press timing matches the beat and returns true or false.
 #Part 2 ：A class is like a blueprint for a game character. A Component is like using that blueprint on a GameObject in Unity. Member variables describe the character's traits, such as its speed, color, or health. Methods describe what the character can do, such as moving, jumping, or taking damage. Different GameObjects can use the same class but have different values for their variables.
 #Part 3 ： I think the balls become extremely bright because their color values are multiplied by 1.5 every time they bounce when they are moving fast enough. After many bounces, the values keep increasing, making the balls look extremely bright, especially in the Scene view. Setting a maximum brightness could help prevent this.
+
+### W4
+Table Number: 13
+
+1. I added a Rigidbody to the Cat and the SoccerBall so they could interact with each other through physics. I kept their colliders as regular colliders so the cat could kick the ball and both objects could bounce off the walls. I checked Is Trigger on the Goal so the ball could be detected when it entered the goal area without being blocked by the trigger.
+2. I tested the game to check if the cat could kick the ball, the ball could bounce off the walls, and the goal could detect when the ball entered. I also checked that the goal effect, points text, and time since last goal text worked correctly. If something did not work as expected, I checked the collider settings and component references to find the problem.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
