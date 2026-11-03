@@ -44,6 +44,27 @@ Table Number: 13
 1. I added a Rigidbody to the Cat and the SoccerBall so they could interact with each other through physics. I kept their colliders as regular colliders so the cat could kick the ball and both objects could bounce off the walls. I checked Is Trigger on the Goal so the ball could be detected when it entered the goal area without being blocked by the trigger.
 2. I tested the game to check if the cat could kick the ball, the ball could bounce off the walls, and the goal could detect when the ball entered. I also checked that the goal effect, points text, and time since last goal text worked correctly. If something did not work as expected, I checked the collider settings and component references to find the problem.
 
+### W5（W6）
+1.Before coding, we planned the DeerW5 class by identifying the variables and methods it needed.
+
+Member variables:
+
+A Transform variable to store the target GameObject that the deer should walk toward.
+
+A NavMeshAgent variable to control the deer's movement.
+
+Methods:
+
+Start(): Use GetComponent<NavMeshAgent>() to get the NavMeshAgent component attached to the Deer GameObject, then set its destination to the target's position.
+
+We did not need to write an Update() method because the NavMeshAgent can handle the deer's movement after its destination is set.
+
+After setting the target in the Inspector to the red mushroom, the deer was able to walk toward it using the NavMesh.
+
+2.In Part 2, I worked on the cat's movement using the W and S keys. The cat could move back and forth, and in the second step, the controls were switched.
+
+This activity helped me understand how to use the NavMeshAgent to move a character toward a target and how to use input and vectors to control movement. I also learned the importance of planning member variables and methods before writing code.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
