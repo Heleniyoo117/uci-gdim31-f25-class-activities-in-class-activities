@@ -61,7 +61,12 @@ We did not need to write an Update() method because the NavMeshAgent can handle 
 
 After setting the target in the Inspector to the red mushroom, the deer was able to walk toward it using the NavMesh.
 
+### W8
+In Step 2, the original movement code had a problem because it used Vector3.forward to move the Muskrat. Vector3.forward always points in the positive Z direction of the world space, so it does not change when the Muskrat rotates. This caused the Muskrat to move in the same direction even after turning left or right, which made the movement feel unnatural.
 
+To fix this problem, I replaced Vector3.forward with transform.forward. Unlike Vector3.forward, transform.forward represents the direction the Muskrat is currently facing in its local space. This allows the movement direction to change together with the character's rotation. I also kept _moveSpeed and Time.deltaTime in the movement calculation so the character moves at a consistent speed over time.
+
+After making this change, the Muskrat can move forward and backward according to its current facing direction. This helped me understand the difference between world space and object space, and why choosing the correct coordinate system is important when programming character movement in Unity.
 
 ## Open-Source Assets
 ### W1
