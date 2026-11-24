@@ -68,6 +68,13 @@ To fix this problem, I replaced Vector3.forward with transform.forward. Unlike V
 
 After making this change, the Muskrat can move forward and backward according to its current facing direction. This helped me understand the difference between world space and object space, and why choosing the correct coordinate system is important when programming character movement in Unity.
 
+### W9
+##Project Type: 2D Platformer
+##Project Breakdown:
+https://docs.google.com/document/d/1bFlGo9EZQe8lsjoFawA461VotLIuk7ehiCGTmq5yt6g/edit?tab=t.0
+##In-Class Progress:
+I was responsible for completing the Scripts and Function sections in the group. In addition to this teamwork project, I also began to plan the final project.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
